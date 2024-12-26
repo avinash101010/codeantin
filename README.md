@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# codeAntin
+The project is a web-based UI application designed to as part of Assignment of CodeAnt provide a login page and a home page which consists of list of repositories details. It is built using React js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Installation
+- Make sure npm installed in your env, After clonig this repo run these commands
+ ```bash
+ npm install react react-dom react-router-dom react-icons
+ ```
 
-In the project directory, you can run:
+- After installaing these libraries runt this command
+```bash
+    npm start
+```
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage Instructions
+- Once you start the server it will direct to Login page directly, when you click on any Oauth sign in way you will be directed to Home page.
+- When you open Login page in Mobile dimension mode stats section disappears and only signin section will be visible as shown 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Home page consists of Sidebar with defferent tabs on the left side of the screen and List of repositories at the right side of the screen.
+- When you open Home page in Mobile dimension mode Sidebar disappears and will be converted to Heading bar with drop-down menu button
 
-### `npm test`
+- "/" url for loign page
+- "/main" url for Home page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Future implementations
+- Mobile view of Home page is not acurate, will modify in further versions
+- Can implement dark theme
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Images
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- This is the **Login Page** in desktop view
+<img src="./images/DLogin.png" alt="Dlogin" width="600"/>
 
-### `npm run eject`
+- This is the **Longin Page** in Mobile view
+<img src="./images/MLogin.png" alt="MLogin" height="400"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- This is **Home Page** in desktop view
+<img src="./images/DHome.png" alt="DHome" width="600"/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
