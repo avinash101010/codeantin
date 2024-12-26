@@ -10,7 +10,7 @@ The project is a web-based UI application designed to as part of Assignment of C
 
 - After installaing these libraries runt this command
 ```bash
-    npm start
+npm start
 ```
 
 
