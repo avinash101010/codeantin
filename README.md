@@ -5,7 +5,7 @@ The project is a web-based UI application designed to as part of Assignment of C
 ## Installation
 - Make sure npm installed in your env, After clonig this repo run these commands
  ```bash
- npm install react react-dom react-router-dom react-icons
+ npm install react react-dom react-router-dom react-icons web-vitals
  ```
 
 - After installaing these libraries runt this command
