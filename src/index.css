@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%; /* You can adjust this as per your design needs */
+  height: auto;
+  /* z-index: 2; Ensures it stays on top */
+}
+.whiteant {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%; /* Set a percentage-based width */
+  height: auto; /* Maintain aspect ratio */
+  /* z-index: -1; Send it to the back */
+}
+
+.rcenter {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 70%; /* You can adjust this as per your design needs */
+  height: auto;
+  /* z-index: 2; Ensures it stays on top */
+}
+#container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; /* Can be changed in the live sample */
+  width: 510px;
+}
+.bysign {
+  margin-top: 80px;
+}
