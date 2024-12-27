@@ -7,7 +7,7 @@ const Tab = ({ name, icon, isActive, disabled, onClick }) => (
       alignItems: 'center',
       cursor: disabled ? 'not-allowed' : 'pointer',
       borderRadius: '5px',
-      fontSize: '16px',
+      fontSize: '18px',
       padding: '10px 15px',
       backgroundColor: isActive ? '#1570EF' : 'transparent',
       color: isActive ? '#fff' : '#000',

@@ -71,11 +71,12 @@ const RepositoryItem = ({ repo }) => {
         border: '1px solid #ccc',
         padding: '10px',
         height: '8vh',
+        alignContent:'center',
+        // width:'82vw',
         backgroundColor: hovered ? 'rgba(204,204,204,0.2)' : '#fff',
-      }}
-    >
+      }}>
       <div style={{ display: 'flex', justifyContent: 'start' }}>
-        <h4 style={{ margin: 0 }}>{repo.name}</h4>
+        <h4 style={{ margin: 0,marginLeft:'10px' }}>{repo.name}</h4>
         <span
           style={{
             padding: '2px 8px',
@@ -85,16 +86,13 @@ const RepositoryItem = ({ repo }) => {
             color: 'blue',
             fontSize: '12px',
             marginLeft: '10px',
-          }}
-        >
+          }}>
           {repo.visibility}
         </span>
       </div>
-      <div style={{ marginTop: '8px', fontSize: '14px', color: '#555', display: 'flex', gap: '40px', alignItems: 'center' }}>
-        <span>{repo.language}</span>
-        <span>
-          <FiDatabase style={{ verticalAlign: 'middle', marginRight: '1px' }} /> {repo.size}
-        </span>
+      <div style={{ marginTop: "8px", fontSize: "14px", color: "#555", display: "flex", gap: "40px", alignItems: "center", marginLeft:'10px' }}>
+        <span>{repo.language} <span className='dot' style={{ verticalAlign: "middle", marginLeft: "2px" }}></span></span>
+        <span><FiDatabase style={{ verticalAlign: "middle", marginRight: "1px" }} /> {repo.size}</span>
         <span>{repo.updated}</span>
       </div>
     </div>

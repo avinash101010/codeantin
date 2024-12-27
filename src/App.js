@@ -11,7 +11,7 @@ function App() {
         {/* Define routes */}
         <Route path="/" element={<Login />} />
         <Route path="/main" element={<Repositories />} />
-        {/* <Route path="/" element={<MainPage />} /> */}
+        <Route path="/m" element={<MainPage />} />
       </Routes>
     </div>
   );
