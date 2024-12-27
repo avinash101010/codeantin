@@ -23,6 +23,7 @@ npm start
 
 - "/" url for loign page
 - "/main" url for Home page
+- "/index" url for version 2 of Home Page
 
 
 ## Future implementations
